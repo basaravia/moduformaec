@@ -54,8 +54,10 @@
                 bottom: $header.outerHeight(),
                 terminate: function() { $header.removeClass('alt'); },
                 enter: function() { $header.addClass('alt'); },
-                leave: function() { $header.removeClass('alt');
-                    $header.addClass('reveal'); }
+                leave: function() {
+                    $header.removeClass('alt');
+                    $header.addClass('reveal');
+                }
             });
 
         }
@@ -134,7 +136,6 @@
                 resetForms: true,
                 side: 'right'
             });
-
     });
 
 })(jQuery);
